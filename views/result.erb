@@ -1,0 +1,15 @@
+<h1>Palindrome Result</h1>
+
+<% if @phrase.palindrome? %>
+  <div class="result result-success">
+    <p><strong>"<%= @phrase %>" is a palindrome!</strong></p>
+  </div>
+<% else %>
+  <div class="result result-fail">
+    <p><strong>"<%= @phrase %>" isn't a palindrome!</strong></p>
+  </div>
+<% end %>
+
+<h2>Try another one!</h2>
+
+<%= erb :palindrome_form %>

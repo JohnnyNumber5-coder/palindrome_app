@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'rerun'
+gem 'JohnnyNumber5_palindrome'
 
 group :test do
   gem 'minitest'
@@ -9,4 +10,4 @@ group :test do
   gem 'rack-test'
   gem 'rake'
   gem 'nokogiri'
-end  
+end

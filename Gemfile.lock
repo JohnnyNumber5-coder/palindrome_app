@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    JohnnyNumber5_palindrome (0.2.0)
     ansi (1.5.0)
     builder (3.2.4)
     ffi (1.13.1)
@@ -42,6 +43,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  JohnnyNumber5_palindrome
   minitest
   minitest-reporters
   nokogiri
